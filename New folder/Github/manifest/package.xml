@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+	<types>
+		<members>*</members>
+		<name>ApexClass</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>ApexTrigger</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>AuraDefinitionBundle</name>
+	</types>
+	<types>
+		<members>Honda_Charging_Vehicle</members>
+		<name>CustomApplication</name>
+	</types>
+	<types>
+		<members>Charge__c.Charge_Id__c</members>
+		<members>Charge__c.Contact_Id__c</members>
+		<members>Charge__c.Cost__c</members>
+		<members>Charge__c.End_Time__c</members>
+		<members>Charge__c.Start_Time__c</members>
+		<members>Charge__c.Total_Time_Used__c</members>
+		<members>Contact.Card_Value__c</members>
+		<members>Contact.Last_Used__c</members>
+		<members>Contact.Total_Usage_Hours__c</members>
+		<name>CustomField</name>
+	</types>
+	<types>
+		<members>Charge__c</members>
+		<name>CustomObject</name>
+	</types>
+	<types>
+		<members>*</members>
+		<name>CustomTab</name>
+	</types>
+	<types>
+		<members>unfiled$public/Charging_Details</members>
+		<name>EmailTemplate</name>
+	</types>
+	<types>
+		<members>Charge__c-Charge Layout</members>
+		<members>Contact-Charging Vehicle Details</members>
+		<name>Layout</name>
+	</types>
+	<version>53.0</version>
+</Package>

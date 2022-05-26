@@ -1,0 +1,18 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId" access="global" controller="HondaVehicleCharge">
+    <aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="viewAllItemsSwitch" type="String" description="View all on/off" default="off"/>
+    <div class="slds-card">
+    <div class="slds-align_absolute-center slds-text-heading_large">Charging Station</div>
+  	<div class="slds-form-element slds-align_absolute-center">
+    <label class="slds-checkbox_toggle slds-align_absolute-center">
+    <span class="slds-form-element__label slds-m-bottom_none">Charging</span>
+      <ui:inputCheckbox aura:id="checkbox" class="slds-input" change="{!c.handleToggleChanged}"/>
+    <span id="checkbox-toggle-16" class="slds-checkbox_faux_container" aria-live="assertive">
+      <span class="slds-checkbox_faux"></span>
+      <span class="slds-checkbox_on">Active</span>
+      <span class="slds-checkbox_off">Inactive</span>
+    </span>
+  </label>
+</div>
+        </div>
+</aura:component>
